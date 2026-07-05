@@ -342,6 +342,4 @@ Each step depends on the one before it: sensing before the bitline difference de
 
 ---
 
-## Closing Notes
-
-These twelve topics form a complete conceptual loop: the bitcell (1) has an inherent stability tension (2) that's visualized with the butterfly curve (3) and quantified through two failure/success metrics — read disturb (4) and write margin (5). Around that cell, precharge (6), wordline control (7), and bitline behavior (8) set up the electrical conditions for access, while the sense amplifier (9) and write driver (10) do the actual work of reading and writing. Decoders (11) make sure the right cell is selected in the first place, and the timing sequence (12) ties every piece together into a working memory access.
+e timing sequence (12) ties every piece together into a working memory access.
