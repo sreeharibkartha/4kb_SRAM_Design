@@ -1,0 +1,31 @@
+SRAM-SKY130-AI-Assisted-Week2-3/
+│
+├── README.md                          ← main intro + index
+├── 00_setup/
+│   ├── tools_and_versions.md
+│   └── environment_setup.md
+│
+├── 01_6T_bitcell/
+│   ├── prompts.md
+│   ├── netlist.spice
+│   ├── sim_commands.md
+│   ├── sim_log.txt
+│   ├── waveforms/
+│   └── observations.md
+│
+├── 02_read_write_stability/
+│   └── (same sub-structure)
+│
+├── 03_butterfly_curve/
+│   └── ...
+├── 04_read_disturb/
+├── 05_write_margin/
+├── 06_precharge_circuit/
+├── 07_wordline_control/
+├── 08_bitline_behaviour/
+├── 09_sense_amplifier/
+├── 10_write_driver/
+├── 11_row_column_decoder/
+├── 12_sram_timing_sequence/
+│
+└── final_summary.md
