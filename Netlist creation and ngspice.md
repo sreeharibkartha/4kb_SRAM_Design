@@ -27,6 +27,7 @@ tran 10p 10n
 plot v(Q) v(QB) v(WL)
 .endc
 .end
+
 '''
 
 ### 2. Read/Write Stability
