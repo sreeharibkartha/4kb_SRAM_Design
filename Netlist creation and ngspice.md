@@ -1,3 +1,4 @@
+<img width="702" height="517" alt="Screenshot 2026-07-05 175155" src="https://github.com/user-attachments/assets/8e64fa45-dc14-40f0-9e19-62887e9760ad" />
 # Netlist Descriptions
 
 ### 1. 6T SRAM Bitcell Operation
@@ -29,6 +30,15 @@ plot v(Q) v(QB) v(WL)
 .end
 
 ```
+
+
+<img width="1920" height="1080" alt="Screenshot 2026-07-05 175332" src="https://github.com/user-attachments/assets/1945c244-4116-4a2f-a1a6-129442818ac1" />
+<img width="702" height="517" alt="Screenshot 2026-07-05 175155" src="https://github.com/user-attachments/assets/70373cb7-db50-423e-963a-b523b1957fef" />
+
+
+
+
+
 
 ### 2. Read/Write Stability
 This netlist runs the same bitcell under two bias conditions — wordline low (hold) and wordline high with bitlines pre-charged (read) — to compare how much the stored value shifts under access. It's used to check whether the cell's sizing keeps Q and QB safely on their correct side of the switching threshold during a read.
