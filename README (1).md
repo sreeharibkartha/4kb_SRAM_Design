@@ -342,4 +342,3 @@ Each step depends on the one before it: sensing before the bitline difference de
 
 ---
 
-e timing sequence (12) ties every piece together into a working memory access.
