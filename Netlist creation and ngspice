@@ -4,11 +4,6 @@
 This netlist implements the core cross-coupled inverter pair with two NMOS access transistors, verifying that the cell holds a stable, non-oscillating value at Q and QB under DC bias. It confirms the latch reaches one of its two intended stable states rather than settling at an invalid mid-rail voltage.
 
 
-file:///C:/Users/hp/Pictures/github/nl1/Screenshot%202026-07-05%20175155.png
-
-
-
-
 ### 2. Read/Write Stability
 This netlist runs the same bitcell under two bias conditions — wordline low (hold) and wordline high with bitlines pre-charged (read) — to compare how much the stored value shifts under access. It's used to check whether the cell's sizing keeps Q and QB safely on their correct side of the switching threshold during a read.
 
