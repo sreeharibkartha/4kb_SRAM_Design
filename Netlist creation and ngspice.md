@@ -3,7 +3,8 @@
 ### 1. 6T SRAM Bitcell Operation
 This netlist implements the core cross-coupled inverter pair with two NMOS access transistors, verifying that the cell holds a stable, non-oscillating value at Q and QB under DC bias. It confirms the latch reaches one of its two intended stable states rather than settling at an invalid mid-rail voltage.
 
-''' * 6T SRAM Bitcell - Generic Models
+'''
+* 6T SRAM Bitcell - Generic Models
 .model NMOS_GEN NMOS (LEVEL=1 VTO=0.7 KP=120u LAMBDA=0.01)
 .model PMOS_GEN PMOS (LEVEL=1 VTO=-0.7 KP=40u LAMBDA=0.01)
 
@@ -25,7 +26,8 @@ M6 BLB WL QB 0    NMOS_GEN W=0.42u L=0.15u
 tran 10p 10n
 plot v(Q) v(QB) v(WL)
 .endc
-.end '''
+.end
+'''
 
 ### 2. Read/Write Stability
 This netlist runs the same bitcell under two bias conditions — wordline low (hold) and wordline high with bitlines pre-charged (read) — to compare how much the stored value shifts under access. It's used to check whether the cell's sizing keeps Q and QB safely on their correct side of the switching threshold during a read.
