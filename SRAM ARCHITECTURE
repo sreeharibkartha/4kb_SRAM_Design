@@ -1,9 +1,9 @@
-# Comprehensive SRAM Design Fundamentals
+#Comprehensive SRAM Design Fundamentals
 
-## 1. 6T SRAM Bitcell Operation
+##1. 6T SRAM Bitcell Operation
 The standard 6-Transistor (6T) SRAM cell consists of two cross-coupled CMOS inverters and two access transistors. The cross-coupled inverters form a bi-stable latch that stores a single bit of data indefinitely, as long as power is maintained. The access transistors are controlled by the Wordline (WL) and connect the internal storage nodes to the Bitlines (BL and BLB) for bidirectional data transfer.
 
-## 2. Read/Write Stability
+##2. Read/Write Stability
 SRAM stability relies on a strict balance of transistor sizing to manage conflicting operational requirements. Read stability is governed by the Cell Ratio (CR), which compares the strength of the pull-down NMOS to the access NMOS. Write stability depends on the Pull-Up Ratio (PR), which evaluates the pull-up PMOS against the access NMOS. A high CR prevents accidental data flips during reads, while a low PR ensures the cell can be easily overwritten during writes.
 
 ## 3. Butterfly Curve
