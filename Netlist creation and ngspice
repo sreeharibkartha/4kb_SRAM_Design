@@ -4,7 +4,7 @@
 This netlist implements the core cross-coupled inverter pair with two NMOS access transistors, verifying that the cell holds a stable, non-oscillating value at Q and QB under DC bias. It confirms the latch reaches one of its two intended stable states rather than settling at an invalid mid-rail voltage.
 
 
-
+file:///C:/Users/hp/Pictures/github/nl1/Screenshot%202026-07-05%20175155.png
 
 
 
