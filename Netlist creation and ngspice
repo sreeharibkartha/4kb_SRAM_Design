@@ -8,6 +8,7 @@ This netlist implements the core cross-coupled inverter pair with two NMOS acces
 
 
 
+
 ### 2. Read/Write Stability
 This netlist runs the same bitcell under two bias conditions — wordline low (hold) and wordline high with bitlines pre-charged (read) — to compare how much the stored value shifts under access. It's used to check whether the cell's sizing keeps Q and QB safely on their correct side of the switching threshold during a read.
 
