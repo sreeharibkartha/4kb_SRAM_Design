@@ -45,14 +45,23 @@ plot v(Q) v(QB) v(WL)
 ### 2. Read/Write Stability
 This netlist runs the same bitcell under two bias conditions — wordline low (hold) and wordline high with bitlines pre-charged (read) — to compare how much the stored value shifts under access. It's used to check whether the cell's sizing keeps Q and QB safely on their correct side of the switching threshold during a read.
 ```
-* Read/Write Stability - WL pulsed
+* Read/Write Stability - WL pulsed (bitline write pulses now span the FULL WL-high window)
 .model NMOS_GEN NMOS (LEVEL=1 VTO=0.7 KP=120u LAMBDA=0.01)
 .model PMOS_GEN PMOS (LEVEL=1 VTO=-0.7 KP=40u LAMBDA=0.01)
-
 VDD VDD 0 DC 1.8
-VWL WL 0 PULSE(0 1.8 2n 0.1n 0.1n 3n 8n)
-VBL  BL  0 DC 1.8
-VBLB BLB 0 DC 1.8
+
+* WL pulses: read(2-5n), write0(8-11n), read(13-16n), write1(19-22n), read(24-27n)
+VWL WL 0 PWL(0 0 2n 0 2.1n 1.8 5n 1.8 5.1n 0
++                8n 0 8.1n 1.8 11n 1.8 11.1n 0
++                13n 0 13.1n 1.8 16n 1.8 16.1n 0
++                19n 0 19.1n 1.8 22n 1.8 22.1n 0
++                24n 0 24.1n 1.8 27n 1.8 27.1n 0)
+
+* BL: forced low for the ENTIRE write-0 window (8-11n), released only after WL has fallen.
+VBL  BL  0 PWL(0 1.8 8n 1.8 8.1n 0 11n 0 11.2n 1.8 30n 1.8)
+
+* BLB: forced low for the ENTIRE write-1 window (19-22n), released only after WL has fallen.
+VBLB BLB 0 PWL(0 1.8 19n 1.8 19.1n 0 22n 0 22.2n 1.8 30n 1.8)
 
 M1 Q   QB VDD VDD PMOS_GEN W=0.42u L=0.15u
 M2 Q   QB 0   0   NMOS_GEN W=0.64u L=0.15u
@@ -64,10 +73,15 @@ M6 BLB WL QB 0    NMOS_GEN W=0.42u L=0.15u
 .ic V(Q)=1.8 V(QB)=0
 
 .control
-tran 10p 20n
+tran 10p 30n
+* Numeric checks instead of eyeballing the plot
+meas tran vQ_read1  find V(Q)  at=4n
+meas tran vQ_read2  find V(Q)  at=14n
+meas tran vQ_read3  find V(Q)  at=26n
 plot v(Q) v(QB) v(WL) v(BL) v(BLB)
 .endc
 .end
+
 ```
 
 
@@ -76,7 +90,8 @@ plot v(Q) v(QB) v(WL) v(BL) v(BLB)
 
 <img width="615" height="507" alt="Screenshot 2026-07-05 180213" src="https://github.com/user-attachments/assets/86fdf55f-7e39-484e-857a-abd484f9f6cc" />
 
-<img width="1920" height="1080" alt="Screenshot 2026-07-05 181029" src="https://github.com/user-attachments/assets/e252d084-30df-405b-8f3a-5ebb5a27ecac" />
+<img width="1920" height="1080" alt="Screenshot 2026-07-12 231630" src="https://github.com/user-attachments/assets/8bf5ae81-d3b6-4b86-a11f-d000fc64ec8e" />
+
 
 
 
