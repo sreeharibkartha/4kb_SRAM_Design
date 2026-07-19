@@ -1,0 +1,39 @@
+[2026-07-18 17:40:19.704787] |==============================================================================|
+[2026-07-18 17:40:19.705135] |=========                      OpenRAM v1.2.49                       =========|
+[2026-07-18 17:40:19.705244] |=========                                                            =========|
+[2026-07-18 17:40:19.705347] |=========               VLSI Design and Automation Lab               =========|
+[2026-07-18 17:40:19.705413] |=========        Computer Science and Engineering Department         =========|
+[2026-07-18 17:40:19.705480] |=========            University of California Santa Cruz             =========|
+[2026-07-18 17:40:19.705533] |=========                                                            =========|
+[2026-07-18 17:40:19.705596] |=========          Usage help: openram-user-group@ucsc.edu           =========|
+[2026-07-18 17:40:19.705633] |=========        Development help: openram-dev-group@ucsc.edu        =========|
+[2026-07-18 17:40:19.705670] |=========                See LICENSE for license info                =========|
+[2026-07-18 17:40:19.705730] |==============================================================================|
+[2026-07-18 17:40:19.705810] ** Start: 07/18/2026 17:40:19
+[2026-07-18 17:40:19.705868] Technology: sky130
+[2026-07-18 17:40:19.705908] Total size: 256 bits
+[2026-07-18 17:40:19.705950] Word size: 16
+Words: 16
+Banks: 1
+[2026-07-18 17:40:19.706000] RW ports: 1
+R-only ports: 1
+W-only ports: 0
+[2026-07-18 17:40:19.706054] Performing simulation-based characterization with ngspice
+[2026-07-18 17:40:19.706324] Trimming netlist to speed up characterization (trim_netlist=False to disable).
+[2026-07-18 17:40:19.706403] Words per row: None
+[2026-07-18 17:40:19.706530] Output files are: 
+[2026-07-18 17:40:19.706584] /home/shbk/openram_output/sram_2x16/./sram_2x16.lvs
+[2026-07-18 17:40:19.706629] /home/shbk/openram_output/sram_2x16/./sram_2x16.sp
+[2026-07-18 17:40:19.706673] /home/shbk/openram_output/sram_2x16/./sram_2x16.v
+[2026-07-18 17:40:19.706717] /home/shbk/openram_output/sram_2x16/./sram_2x16.lib
+[2026-07-18 17:40:19.706759] /home/shbk/openram_output/sram_2x16/./sram_2x16.py
+[2026-07-18 17:40:19.706789] /home/shbk/openram_output/sram_2x16/./sram_2x16.html
+[2026-07-18 17:40:19.706823] /home/shbk/openram_output/sram_2x16/./sram_2x16.log
+[2026-07-18 17:40:19.706889] /home/shbk/openram_output/sram_2x16/./sram_2x16.lef
+[2026-07-18 17:40:19.706942] /home/shbk/openram_output/sram_2x16/./sram_2x16.gds
+[2026-07-18 17:40:24.905600] WARNING: file magic.py: line 254: DRC Errors sram_2x16_bitcell_array	39097
+
+[2026-07-18 17:40:25.979605] ERROR: file magic.py: line 385: sram_2x16_bitcell_array	LVS mismatch (results in /tmp/openram_shbk_14844_temp/sram_2x16_bitcell_array.lvs.report)
+
+[2026-07-18 17:40:25.981183] ERROR: file hierarchy_design.py: line 76: DRC failed for sram_2x16_bitcell_array with 39097 error(s)
+

@@ -1,0 +1,202 @@
+Sat Jul 18 05:40:24 PM UTC 2026: Starting LVS using Netgen /usr/local/bin/netgen
+Netgen 1.5.323 compiled on Sun Jul 12 06:08:41 AM UTC 2026
+Warning: netgen command 'format' use fully-qualified name '::netgen::format'
+Warning: netgen command 'global' use fully-qualified name '::netgen::global'
+Generating JSON file result
+Reading netlist file sram_2x16_bitcell_array.spice for sram_2x16_bitcell_array.spice sram_2x16_bitcell_array
+Call to undefined subcircuit sky130_fd_pr__special_nfet_latch
+Creating placeholder cell definition.
+Call to undefined subcircuit sky130_fd_pr__special_pfet_pass
+Creating placeholder cell definition.
+Reading netlist file sram_2x16_bitcell_array.sp for sram_2x16_bitcell_array.sp sram_2x16_bitcell_array
+Call to undefined subcircuit sky130_fd_pr__special_nfet_latch
+Creating placeholder cell definition.
+Call to undefined subcircuit sky130_fd_pr__special_nfet_pass
+Creating placeholder cell definition.
+
+Reading setup file setup.tcl
+
+Model sky130_fd_pr__special_pfet_pass pin 1 == 3
+No property mult found for device sky130_fd_pr__special_pfet_pass
+No property sa found for device sky130_fd_pr__special_pfet_pass
+No property sb found for device sky130_fd_pr__special_pfet_pass
+No property sd found for device sky130_fd_pr__special_pfet_pass
+No property nf found for device sky130_fd_pr__special_pfet_pass
+No property nrd found for device sky130_fd_pr__special_pfet_pass
+No property nrs found for device sky130_fd_pr__special_pfet_pass
+No property area found for device sky130_fd_pr__special_pfet_pass
+No property perim found for device sky130_fd_pr__special_pfet_pass
+No property topography found for device sky130_fd_pr__special_pfet_pass
+Model sky130_fd_pr__special_nfet_pass pin 1 == 3
+No property as found for device sky130_fd_pr__special_nfet_pass
+No property ad found for device sky130_fd_pr__special_nfet_pass
+No property ps found for device sky130_fd_pr__special_nfet_pass
+No property pd found for device sky130_fd_pr__special_nfet_pass
+No property mult found for device sky130_fd_pr__special_nfet_pass
+No property sa found for device sky130_fd_pr__special_nfet_pass
+No property sb found for device sky130_fd_pr__special_nfet_pass
+No property sd found for device sky130_fd_pr__special_nfet_pass
+No property nf found for device sky130_fd_pr__special_nfet_pass
+No property nrd found for device sky130_fd_pr__special_nfet_pass
+No property nrs found for device sky130_fd_pr__special_nfet_pass
+No property area found for device sky130_fd_pr__special_nfet_pass
+No property perim found for device sky130_fd_pr__special_nfet_pass
+No property topography found for device sky130_fd_pr__special_nfet_pass
+Model sky130_fd_pr__special_nfet_latch pin 1 == 3
+No property mult found for device sky130_fd_pr__special_nfet_latch
+No property sa found for device sky130_fd_pr__special_nfet_latch
+No property sb found for device sky130_fd_pr__special_nfet_latch
+No property sd found for device sky130_fd_pr__special_nfet_latch
+No property nf found for device sky130_fd_pr__special_nfet_latch
+No property nrd found for device sky130_fd_pr__special_nfet_latch
+No property nrs found for device sky130_fd_pr__special_nfet_latch
+No property area found for device sky130_fd_pr__special_nfet_latch
+No property perim found for device sky130_fd_pr__special_nfet_latch
+No property topography found for device sky130_fd_pr__special_nfet_latch
+Model sky130_fd_pr__special_nfet_latch pin 1 == 3
+No property as found for device sky130_fd_pr__special_nfet_latch
+No property ad found for device sky130_fd_pr__special_nfet_latch
+No property ps found for device sky130_fd_pr__special_nfet_latch
+No property pd found for device sky130_fd_pr__special_nfet_latch
+No property mult found for device sky130_fd_pr__special_nfet_latch
+No property sa found for device sky130_fd_pr__special_nfet_latch
+No property sb found for device sky130_fd_pr__special_nfet_latch
+No property sd found for device sky130_fd_pr__special_nfet_latch
+No property nf found for device sky130_fd_pr__special_nfet_latch
+No property nrd found for device sky130_fd_pr__special_nfet_latch
+No property nrs found for device sky130_fd_pr__special_nfet_latch
+No property area found for device sky130_fd_pr__special_nfet_latch
+No property perim found for device sky130_fd_pr__special_nfet_latch
+No property topography found for device sky130_fd_pr__special_nfet_latch
+Model sky130_fd_pr__special_pfet_pass pin 1 == 3
+No property as found for device sky130_fd_pr__special_pfet_pass
+No property ad found for device sky130_fd_pr__special_pfet_pass
+No property ps found for device sky130_fd_pr__special_pfet_pass
+No property pd found for device sky130_fd_pr__special_pfet_pass
+No property mult found for device sky130_fd_pr__special_pfet_pass
+No property sa found for device sky130_fd_pr__special_pfet_pass
+No property sb found for device sky130_fd_pr__special_pfet_pass
+No property sd found for device sky130_fd_pr__special_pfet_pass
+No property nf found for device sky130_fd_pr__special_pfet_pass
+No property nrd found for device sky130_fd_pr__special_pfet_pass
+No property nrs found for device sky130_fd_pr__special_pfet_pass
+No property area found for device sky130_fd_pr__special_pfet_pass
+No property perim found for device sky130_fd_pr__special_pfet_pass
+No property topography found for device sky130_fd_pr__special_pfet_pass
+Model sky130_fd_pr__special_nfet_pass pin 1 == 3
+No property as found for device sky130_fd_pr__special_nfet_pass
+No property ad found for device sky130_fd_pr__special_nfet_pass
+No property ps found for device sky130_fd_pr__special_nfet_pass
+No property pd found for device sky130_fd_pr__special_nfet_pass
+No property mult found for device sky130_fd_pr__special_nfet_pass
+No property sa found for device sky130_fd_pr__special_nfet_pass
+No property sb found for device sky130_fd_pr__special_nfet_pass
+No property sd found for device sky130_fd_pr__special_nfet_pass
+No property nf found for device sky130_fd_pr__special_nfet_pass
+No property nrd found for device sky130_fd_pr__special_nfet_pass
+No property nrs found for device sky130_fd_pr__special_nfet_pass
+No property area found for device sky130_fd_pr__special_nfet_pass
+No property perim found for device sky130_fd_pr__special_nfet_pass
+No property topography found for device sky130_fd_pr__special_nfet_pass
+Model sky130_fd_pr__special_nfet_latch pin 1 == 3
+No property as found for device sky130_fd_pr__special_nfet_latch
+No property ad found for device sky130_fd_pr__special_nfet_latch
+No property ps found for device sky130_fd_pr__special_nfet_latch
+No property pd found for device sky130_fd_pr__special_nfet_latch
+No property mult found for device sky130_fd_pr__special_nfet_latch
+No property sa found for device sky130_fd_pr__special_nfet_latch
+No property sb found for device sky130_fd_pr__special_nfet_latch
+No property sd found for device sky130_fd_pr__special_nfet_latch
+No property nf found for device sky130_fd_pr__special_nfet_latch
+No property nrd found for device sky130_fd_pr__special_nfet_latch
+No property nrs found for device sky130_fd_pr__special_nfet_latch
+No property area found for device sky130_fd_pr__special_nfet_latch
+No property perim found for device sky130_fd_pr__special_nfet_latch
+No property topography found for device sky130_fd_pr__special_nfet_latch
+Model sky130_fd_pr__special_nfet_latch pin 1 == 3
+No property as found for device sky130_fd_pr__special_nfet_latch
+No property ad found for device sky130_fd_pr__special_nfet_latch
+No property ps found for device sky130_fd_pr__special_nfet_latch
+No property pd found for device sky130_fd_pr__special_nfet_latch
+No property mult found for device sky130_fd_pr__special_nfet_latch
+No property sa found for device sky130_fd_pr__special_nfet_latch
+No property sb found for device sky130_fd_pr__special_nfet_latch
+No property sd found for device sky130_fd_pr__special_nfet_latch
+No property nf found for device sky130_fd_pr__special_nfet_latch
+No property nrd found for device sky130_fd_pr__special_nfet_latch
+No property nrs found for device sky130_fd_pr__special_nfet_latch
+No property area found for device sky130_fd_pr__special_nfet_latch
+No property perim found for device sky130_fd_pr__special_nfet_latch
+No property topography found for device sky130_fd_pr__special_nfet_latch
+Comparison output logged to file sram_2x16_bitcell_array.lvs.report
+Logging to file "sram_2x16_bitcell_array.lvs.report" enabled
+Circuit sky130_fd_pr__special_nfet_latch contains no devices.
+
+Contents of circuit 1:  Circuit: 'sky130_fd_bd_sram__openram_dp_cell'
+Circuit sky130_fd_bd_sram__openram_dp_cell contains 16 device instances.
+  Class: sky130_fd_pr__special_pfet_pass instances:   4
+  Class: sky130_fd_pr__special_nfet_latch instances:  12
+Circuit contains 12 nets.
+Contents of circuit 2:  Circuit: 'sky130_fd_bd_sram__openram_dp_cell'
+Circuit sky130_fd_bd_sram__openram_dp_cell contains 12 device instances.
+  Class: sky130_fd_pr__special_nfet_pass instances:   4
+  Class: sky130_fd_pr__special_nfet_latch instances:   8
+Circuit contains 11 nets, and 1 disconnected pin.
+
+Circuit was modified by parallel/series device merging.
+New circuit summary:
+
+Contents of circuit 1:  Circuit: 'sky130_fd_bd_sram__openram_dp_cell'
+Circuit sky130_fd_bd_sram__openram_dp_cell contains 14 device instances.
+  Class: sky130_fd_pr__special_pfet_pass instances:   4
+  Class: sky130_fd_pr__special_nfet_latch instances:  10
+Circuit contains 12 nets.
+Contents of circuit 2:  Circuit: 'sky130_fd_bd_sram__openram_dp_cell'
+Circuit sky130_fd_bd_sram__openram_dp_cell contains 10 device instances.
+  Class: sky130_fd_pr__special_nfet_pass instances:   4
+  Class: sky130_fd_pr__special_nfet_latch instances:   6
+Circuit contains 11 nets, and 1 disconnected pin.
+
+Circuit 1 contains 14 devices, Circuit 2 contains 10 devices. *** MISMATCH ***
+Circuit 1 contains 12 nets,    Circuit 2 contains 11 nets. *** MISMATCH ***
+
+  Flattening non-matched subcircuits sky130_fd_bd_sram__openram_dp_cell sky130_fd_bd_sram__openram_dp_cell
+
+Flattening instances of sky130_fd_bd_sram__openram_dp_cell in file sram_2x16_bitcell_array.spice
+Flattening instances of sky130_fd_bd_sram__openram_dp_cell in file sram_2x16_bitcell_array.sp
+
+Contents of circuit 1:  Circuit: 'sram_2x16_bitcell_array'
+Circuit sram_2x16_bitcell_array contains 4046 device instances.
+  Class: sky130_fd_pr__special_pfet_pass instances: 1156
+  Class: sky130_fd_pr__special_nfet_latch instances: 2890
+Circuit contains 732 nets.
+Contents of circuit 2:  Circuit: 'sram_2x16_bitcell_array'
+Circuit sram_2x16_bitcell_array contains 2890 device instances.
+  Class: sky130_fd_pr__special_nfet_pass instances: 1156
+  Class: sky130_fd_pr__special_nfet_latch instances: 1734
+Circuit contains 1243 nets, and 17 disconnected pins.
+
+Circuit was modified by parallel/series device merging.
+New circuit summary:
+
+Contents of circuit 1:  Circuit: 'sram_2x16_bitcell_array'
+Circuit sram_2x16_bitcell_array contains 2925 device instances.
+  Class: sky130_fd_pr__special_pfet_pass instances: 1156
+  Class: sky130_fd_pr__special_nfet_latch instances: 1769
+Circuit contains 732 nets.
+Contents of circuit 2:  Circuit: 'sram_2x16_bitcell_array'
+Circuit sram_2x16_bitcell_array contains 2890 device instances.
+  Class: sky130_fd_pr__special_nfet_pass instances: 1156
+  Class: sky130_fd_pr__special_nfet_latch instances: 1734
+Circuit contains 1243 nets, and 17 disconnected pins.
+
+Circuit 1 contains 2925 devices, Circuit 2 contains 2890 devices. *** MISMATCH ***
+Circuit 1 contains 699 nets,    Circuit 2 contains 1243 nets. *** MISMATCH ***
+
+
+Final result: 
+Top level cell failed pin matching.
+
+Logging to file "sram_2x16_bitcell_array.lvs.report" disabled
+LVS Done.
+Sat Jul 18 05:40:25 PM UTC 2026: Finished (0) LVS using Netgen /usr/local/bin/netgen
