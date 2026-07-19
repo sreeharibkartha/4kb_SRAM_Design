@@ -1,4 +1,0 @@
-Error: Could not find library file SKY130_MODEL_PATH
-ERROR, library file SKY130_MODEL_PATH not found
-
-ERROR: fatal error in ngspice, exit(1)
