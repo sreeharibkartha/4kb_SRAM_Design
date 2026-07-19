@@ -1,0 +1,38 @@
+
+Magic 8.3 revision 674 - Compiled on Sun Jul 12 06:04:45 AM UTC 2026.
+Starting magic under Tcl interpreter
+Using the terminal as the console.
+WARNING: RLIMIT_NOFILE is above 1024 and Tcl_Version<9 this may cause runtime issues [rlim_cur=10240]
+Using NULL graphics device.
+Processing system .magicrc file
+Switching to WIRING tool.
+Switching to NETLIST tool.
+Switching to PICK tool.
+Switching to BOX tool.
+Sourcing design .magicrc for technology sky130A ...
+2 Magic internal units = 1 Lambda
+Input style sky130(vendor): scaleFactor=2, multiplier=2
+The following types are not handled by extraction and will be treated as non-electrical types:
+    mvobsactive ubm 
+Scaled tech values by 2 / 1 to match internal grid scaling
+Loading sky130A Device Generator Menu ...
+Loading "drc_run.tcl" from command line.
+Cell cell6t read from current working directory
+Cell cell6t has technology "scmos", but current technology is "sky130A"
+Loading technology scmos
+Input style lambda=1.0(gen): scaleFactor=100, multiplier=1
+Contact size value ignored (using GDS generation rules).
+Contact size value ignored (using GDS generation rules).
+Contact size value ignored (using GDS generation rules).
+Contact size value ignored (using GDS generation rules).
+Contact size value ignored (using GDS generation rules).
+The following types are not handled by extraction and will be treated as non-electrical types:
+    bccdiffusion substrateopen glass 
+Scaled tech values by 2 / 1 to match internal grid scaling
+Scaled magic input cell cell6t geometry by factor of 2
+/usr/local/lib/magic/sys/scmos.tech: line 6484: section (none):
+	Unrecognized layer (type) name "bb"
+TOTAL_DRC_ERRORS: 0
+Loading DRC CIF style.
+/usr/local/lib/magic/sys/scmos.tech: line 1525: section cifoutput:
+	No valid scale factor was given for  CIF.

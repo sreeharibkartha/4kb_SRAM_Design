@@ -1,0 +1,4 @@
+Error: Could not find include file cell6t_pex.sp
+    While reading corners_testbench.sp
+
+ERROR: fatal error in ngspice, exit(1)

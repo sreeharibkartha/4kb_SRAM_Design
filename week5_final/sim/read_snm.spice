@@ -1,0 +1,20 @@
+* Read SNM - 6T cell with WL=1 (read condition)
+.option scale=1e-6
+.temp 25
+.include ../pex/cell6t_pex.sp
+.lib "SKY130_MODEL_PATH" tt
+
+VDD vdd 0 1.8
+VWL wl 0 1.8
+VBL bl 0 1.8
+VBR br 0 1.8
+Vn1 n1 int1 0
+Vn2 n2 int2 0
+
+.dc Vn1 0 1.8 0.01 Vn2 0 1.8 0.01
+.control
+run
+* Export VTC data for butterfly plot / SNM extraction post-processing
+write read_snm.raw
+.endc
+.end

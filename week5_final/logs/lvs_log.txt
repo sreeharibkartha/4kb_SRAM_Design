@@ -1,0 +1,17 @@
+Netgen 1.5.323 compiled on Sun Jul 12 06:08:41 AM UTC 2026
+Warning: netgen command 'format' use fully-qualified name '::netgen::format'
+Warning: netgen command 'global' use fully-qualified name '::netgen::global'
+Reading netlist file cell6t_extracted.sp for cell6t_extracted.sp cell6t
+Error in SPICE file read: No file cell6t_extracted.sp
+-1
+    while executing
+"netgen::readnet $file1"
+    (procedure "lvs" line 58)
+    invoked from within
+"lvs "cell6t_extracted.sp cell6t" "cell6t_golden.sp cell6t" $env(PDK_ROOT)/sky130A/libs.tech/netgen/sky130A_setup.tcl lvs_report.txt"
+    (file "lvs_setup.tcl" line 1)
+    invoked from within
+"source lvs_setup.tcl"
+    ("eval" body line 1)
+    invoked from within
+"eval $argv"
